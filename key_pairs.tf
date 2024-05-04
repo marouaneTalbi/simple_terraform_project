@@ -1,0 +1,4 @@
+resource "aws_key_pair" "aws_key_for_ec2" {
+  key_name   = "aws-ssh-key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDYuYg3BOrPpar+KDI4V3uIb0VK+x5QHS+aI4OO1fwVU9Pr3OlWJAZeC0yjSth17TR4iXuiZhpTNu73eBTt1rObS+nTfH2aTQTszViW92Kn0uYO9e+nUUB1I/dAljqyve7oWeRYYOztg7WBoZtRSXZFTbAS1wEfbtwoVyhRCwFluwaj/NOC64aoBJe4OmIsoTYgF3wpEg3sKir0rmcXvVfqLSxOVCGykuVjeb0dxc2cYIxncFbW2s+4UPG5Z8R9h/FEftrifN600I6vdLS8UwJxCQyRKpeJBWz/L88LKjwMECGA3av3AO5lGu8U7Int/lPizIZrmtJQo2/Rxv2E7+t3 marouane@macbook-air.home"
+}
